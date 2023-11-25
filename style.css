@@ -313,10 +313,6 @@ section {
   transform: scale(1.2);
 }
 
-.swiper-pagination-bullet {
-  background: var(--color-primary);
-}
-
 
 /* CONTACT */
 
