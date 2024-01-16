@@ -1,1 +1,1 @@
-Link: ifroza.github.io/photography-portfolio/
+Link: https://github.com/Ifroza/photography-portfolio.git
