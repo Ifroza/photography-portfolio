@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifroza's Space</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">  
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+   
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script> 
+  
+</head>
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Ifroza's Space</div>
+        <div>
+           <ul class="nav-links">
+             <li><a href="#about">About</a></li>       
+             <li><a href="#projects">Projects</a></li>
+             <li><a href="#features">Special Mentions</a></li>
+             <li><a href="#contact">Contact</a></li>
+           </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ifroza's Space</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#features" onclick="toggleMenu()">Special Mentions</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+         </div>
+    </nav>
+
+      <section id="profile">
+ 
+        <div class="section__text">
+          <h1 class="title_name">Syeda Ifroza Ahmed</h1>
+          <p class="section__text__p2">Dhaka, Bangladesh</p>
+                  
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="window.open('https://linkedin.com/in/ifroza/', '_blank')"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="window.open('https://github.com/Ifroza', '_blank')"
+            />
+            <img
+            src="./assets/email.png"
+            alt="My Email"
+            class="icon"
+            onclick="window.open('mailto:ifroza.ahmed@gmail.com', '_blank')"
+            />
+            <img
+            src="./assets/facebook.png"
+            alt="My Facebook profile"
+            class="icon"
+            onclick="window.open('https://facebook.com/ifroza', '_blank')"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/about-pic.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3><br />
+                <p>BRACU CSE <br />A'level 2021<br />O'level 2018</p>
+              </div>
+            </div>
+            <div class="text-container" >
+              <p>
+                Hi, I'm  a photography enthusiast with a love for capturing life's moments. From music and astronomy to tech and community service, my interests are diverse.When not behind the lens, you'll find me immersed in movies, napping, or spending time with animals. I enjoy exploring various photography styles, turning each click into a unique story. Join me on this creative journey as I freeze time one frame at a time. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+
+        <h1 class="title">Projects</h1>
+         <div id="gallery" class="swiper-container lightbox-gallery">
+            <div class="swiper-wrapper">
+          
+              <div class="swiper-slide" data-lightbox="project" data-title="Project 1">
+                <a href="./assets/project-1.jpg" data-lightbox="project">
+                  <img src="./assets/project-1.jpg" alt="Project 1" />
+                </a>
+              </div>   
+
+              <div class="swiper-slide" data-lightbox="project" data-title="Project 2" >
+                <a href="./assets/project-2.jpg" data-lightbox="project">
+                  <img src="./assets/project-2.jpg" alt="Project 2" />
+                </a>
+              </div>
+
+              <div class="swiper-slide" data-lightbox="project" data-title="Project 3" >
+                <a href="./assets/project-3.jpg" data-lightbox="project">
+                  <img src="./assets/project-3.jpg" alt="Project 3" />
+                </a>
+              </div>
+
+              <div class="swiper-slide" data-lightbox="project" data-title="Project 4">
+                <a href="./assets/project-4.jpg" data-lightbox="project">
+                  <img src="./assets/project-4.jpg" alt="Project 4" />
+                </a>
+              </div>
+
+              <div class="swiper-slide" data-lightbox="project" data-title="Project 5">
+                <a href="./assets/project-5.jpg" data-lightbox="project">
+                  <img src="./assets/project-5.jpg" alt="Project 5" />
+                </a>
+              </div>
+
+              <div class="swiper-slide" data-lightbox="project" data-title="Project 6">
+                <a href="./assets/project-6.jpg" data-lightbox="project">
+                  <img src="./assets/project-6.jpg" alt="Project 6" />
+                </a>
+              </div>
+
+              <div class="swiper-slide" data-lightbox="project" data-title="Project 7" >
+                <a href="./assets/project-7.jpg" data-lightbox="project">
+                  <img src="./assets/project-7.jpg" alt="Project 7" />
+                </a>
+              </div>   
+              <div class="swiper-slide" data-lightbox="project" data-title="Project 8" >
+                <a href="./assets/project-8.jpg" data-lightbox="project">
+                  <img src="./assets/project-8.jpg" alt="Project 8" />
+                </a>
+              </div>   
+              <div class="swiper-slide" data-lightbox="project" data-title="Project 9" >
+                <a href="./assets/project-9.jpg" data-lightbox="project">
+                  <img src="./assets/project-9.jpg" alt="Project 9" />
+                </a>
+              </div>   
+              <div class="swiper-slide" data-lightbox="project" data-title="Project 10" >
+                <a href="./assets/project-10.jpg" data-lightbox="project">
+                  <img src="./assets/project-10.jpg" alt="Project 10" />
+                </a>
+              </div>   
+              <div class="swiper-slide" data-lightbox="project" data-title="Project 11" >
+                <a href="./assets/project-11.jpg" data-lightbox="project">
+                  <img src="./assets/project-11.jpg" alt="Project 11" />
+                </a>
+              </div>   
+              <div class="swiper-slide" data-lightbox="project" data-title="Project 12" >
+                <a href="./assets/project-12.jpg" data-lightbox="project">
+                  <img src="./assets/project-12.jpg" alt="Project 12" />
+                </a>
+              </div>   
+            </div>        
+         </div>
+      </section>
+      
+
+<!-- Add a new section for features/highlights -->
+<section id="features">
+  <h1 class="title">Special Mentions</h1></br>
+  <div class="features-container">
+          <!-- Link showcase -->
+        <div class="feature">
+            <h3>Event Photography</h3></br>
+            <p>Photos I took at an orphanage.</p>
+            <p><a href="https://www.facebook.com/BRACU.COMMUNITYSERVICECLUB/posts/pfbid02sSG91B2oNXw3ZVs5kUc9PgBtVYzAASRwhy3wPswwKZtWq8EBmimARyTTw8hr9fcYl" target="_blank">Link</a></p></br>
+            <a href="./assets/bucscfeature.png" data-lightbox="event-photography" data-title="Event Photography">
+                <img src="./assets/bucscfeature.png" alt="pic1" class="feature-image" />
+            </a>
+            <h3>Lens of Hope: Photography For Social Change</h3></br>
+            <p>Winner's announcement post.</p>
+            <p><a href="https://www.facebook.com/BRACU.COMMUNITYSERVICECLUB/posts/pfbid0mnCJXahyykRwu2nuGgHzqXqrDiNPkWVXakkAHSX6PDR5sYBFQf7rsLPQzNTB5KbTl" target="_blank">Link</a></p></br>
+            <a href="./assets/bucscfeature2.jpg" data-lightbox="social-change" data-title="Lens of Hope: Photography For Social Change, Competition winner">
+                <img src="./assets/bucscfeature2.jpg" alt="pic2" class="feature-image" />
+            </a>
+      </div>
+
+      <!-- Mention showcase -->
+      <div class="feature">
+          <h3>Featured Photos</h3></br>
+          <p>On Talent Ascend Confederation- TAC's facebook page</p></br>
+          <a href="./assets/project-4.jpg" data-lightbox="mention" data-title="Featured in BUCSC's & TAC's facebook page.">
+              <img src="./assets/project-4.jpg" alt="Mention" class="feature-image" />
+          </a></br>
+          <p>On BRAC University Community Service Club- BUCSC's facebook page</p></br>
+          <a href="./assets/project-1.jpg" data-lightbox="mention" data-title="Featured in BUCSC's & TAC's facebook page.">
+              <img src="./assets/project-1.jpg" alt="Mention" class="feature-image" />
+          </a>
+      </div>
+
+      <!-- Certificate showcase -->
+      <div class="feature">
+          <h3>Certificates of Achievement</h3></br>
+          <p>From Talent Ascend Confederation- TAC</p></br>
+          <a href="./assets/certificate1.png" data-lightbox="certificate" data-title="Certificates of Achievement">
+              <img src="./assets/certificate1.png" alt="Certificate" class="feature-image" />
+          </a></br>
+          <p>From BRAC University Community Service Club- BUCSC</p></br>
+          <a href="./assets/certificate2.png" data-lightbox="certificate" data-title="Certificates of Achievement">
+              <img src="./assets/certificate2.png" alt="Certificate" class="feature-image" />
+          </a>
+          
+      </div>
+  </div>
+</section>
+
+
+
+      <section id="contact">
+
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="window.open('https://linkedin.com/in/ifroza/', '_blank')"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="window.open('https://github.com/Ifroza', '_blank')"
+            />
+            <img
+            src="./assets/email.png"
+            alt="My Email"
+            class="icon"
+            onclick="window.open('mailto:ifroza.ahmed@gmail.com', '_blank')"
+            />
+            <img
+            src="./assets/facebook.png"
+            alt="My Facebook profile"
+            class="icon"
+            onclick="window.open('https://facebook.com/ifroza', '_blank')"
+            />
+
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>            
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2023 Syeda Ifroza Ahmed.</p>
+      </footer>
+</body>
+</html>
