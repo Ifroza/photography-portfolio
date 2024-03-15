@@ -20,7 +20,7 @@ html {
 }
 
 p {
-    color: rgba(1, 192, 192, 0.603);
+    color:rgb(206, 138, 138);
 }
 
 /*Transition */
@@ -52,20 +52,20 @@ nav {
 a { 
     color: rgb(128, 128, 128);
     text-decoration: none;
-    text-decoration-color: rgba(1, 192, 192, 0.603);
+    text-decoration-color: rgb(206, 138, 138);
 }
 
 a:hover {
-    color:  rgba(1, 192, 192, 0.603);
+    color: rgb(206, 138, 138);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color:  rgba(1, 192, 192, 0.603);
+    text-decoration-color: rgb(206, 138, 138);
 }
 
 .logo{
     font-family: 'Ephesis', cursive;
     font-size: 3rem;
-    color: rgb(1,192,192);
+    color: rgb(255, 156, 156);
 }
 
 .logo:hover {
@@ -116,7 +116,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: rgba(1, 192, 192, 0.623);
+    color: rgb(1,192,192);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
   }
