@@ -54,8 +54,16 @@
   }
 }
 
-
 @media screen and (max-width: 600px) {
+
+  body {
+    background-image: url('../assets/sp2.jpg'); /* Replace 'path/to/your/space-background-mobile.jpg' with the correct file path for mobile */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
   #contact,
   footer {
     height: 40vh;
