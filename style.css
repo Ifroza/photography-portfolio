@@ -11,8 +11,12 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    background-color:#1e1e1e;
-   
+    background-color:#1e1e1e; 
+  }
+
+#grad1 {
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(49, 62, 95) , rgb(40, 2, 49));  
   }
 
 html {
@@ -20,7 +24,7 @@ html {
 }
 
 p {
-    color:rgb(206, 138, 138);
+    color:rgb(207, 207, 207);
 }
 
 /*Transition */
@@ -52,20 +56,20 @@ nav {
 a { 
     color: rgb(128, 128, 128);
     text-decoration: none;
-    text-decoration-color: rgb(206, 138, 138);
+    text-decoration-color: rgb(207, 207, 207);
 }
 
 a:hover {
-    color: rgb(206, 138, 138);
+    color: rgb(207, 207, 207);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(206, 138, 138);
+    text-decoration-color: rgb(207, 207, 207);
 }
 
 .logo{
     font-family: 'Ephesis', cursive;
     font-size: 3rem;
-    color: rgb(255, 156, 156);
+    color: rgb(255, 255, 255);
 }
 
 .logo:hover {
