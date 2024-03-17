@@ -57,7 +57,7 @@
 @media screen and (max-width: 600px) {
 
   body {
-    background-image: url('../assets/sp2.jpg'); /* Replace 'path/to/your/space-background-mobile.jpg' with the correct file path for mobile */
+    background-image: url('../assets/sp2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
