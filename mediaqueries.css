@@ -1,4 +1,11 @@
 @media screen and (max-width: 1400px) {
+  body {
+    background-image: url('../assets/sp2.jpg'); /* Replace 'path/to/your/space-background-mobile.jpg' with the correct file path for mobile */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -14,6 +21,13 @@
 }
 
 @media screen and (max-width: 1200px) {
+  body {
+    background-image: url('../assets/sp2.jpg'); /* Replace 'path/to/your/space-background-mobile.jpg' with the correct file path for mobile */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
   #desktop-nav {
     display: none;
   }
