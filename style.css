@@ -19,10 +19,12 @@ body {
    background-attachment: fixed; */
   }
 
+/*
 #grad1 {
     height: 100%;
     background-image: linear-gradient(to right, rgb(49, 62, 95) , rgb(40, 2, 49));  
   }
+*/
 
 html {
     scroll-behavior: smooth;
